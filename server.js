@@ -5,7 +5,7 @@ const routes = require("./controllers")
 const app = express()
 const PORT = process.env.PORT || 3001
 
-const {User} = require("./models")
+const {User,Project,Image} = require("./models")
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
