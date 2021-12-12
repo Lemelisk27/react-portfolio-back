@@ -11,7 +11,7 @@ app.use(cors({
 }))
 const PORT = process.env.PORT || 3001
 
-const {User,Project,Image} = require("./models")
+const {User,Project,Image,Resume,Skill,Experience,Role,Education,Degree} = require("./models")
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
