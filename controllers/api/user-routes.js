@@ -4,7 +4,11 @@ const {User} = require("../../models")
 const sequelize = require("../../config/connection")
 
 router.get("/", (req, res) => {
-    User.findAll()
+    User.findAll({
+        attributes: {
+            exclude: ["password"]
+        }
+    })
     .then(userData=>{
         if (userData) {
             res.json(userData)
