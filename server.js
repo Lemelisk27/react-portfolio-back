@@ -7,7 +7,7 @@ const cors = require("cors")
 const app = express()
 // app.use(cors())
 app.use(cors({
-    origin:["https://lemelisk27.herokuapp.com/"]
+    origin:["https://lemelisk27.herokuapp.com"]
 }))
 const PORT = process.env.PORT || 3001
 
