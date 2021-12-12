@@ -30,6 +30,11 @@ const imageData = [
         id: 6,
         url: "https://res.cloudinary.com/coder-mingle/image/upload/v1637546370/portfolio/notes_rkdopt.png",
         UserId: 1
+    },
+    {
+        id: 7,
+        url: "https://res.cloudinary.com/coder-mingle/image/upload/v1639277645/portfolio/016_pfjrdb.jpg",
+        UserId: 1
     }
 ]
 

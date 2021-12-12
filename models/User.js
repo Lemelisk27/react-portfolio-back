@@ -71,6 +71,10 @@ User.init({
     about: {
         type: DataTypes.TEXT,
         allowNull: false
+    },
+    img: {
+        type: DataTypes.TEXT,
+        allowNull: false
     }
 },
 {
