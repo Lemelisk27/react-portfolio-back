@@ -9,6 +9,14 @@ This is the back-end to my protfolio, it was written useing react. It includes e
 - [License](#license)
 ## Installation
 Dependencies:
+- Bcrypt
+- Compression
+- Cors
+- Dotenv
+- Express
+- Jsonwebtoken
+- Mysql2
+- Sequelize
 
 ## Usage
 Link - [Portfolio](https://lemelisk27.herokuapp.com/)
