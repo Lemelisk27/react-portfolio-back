@@ -13,7 +13,7 @@ const roleData = [
     },
     {
         id: 3,
-        role:"Secured cargo, made sure that it was balanced, and ensured that the overall weight of the truck didn'texceed federal regulations..",
+        role:"Secured cargo, made sure that it was balanced, and ensured that the overall weight of the truck didn't exceed federal regulations.",
         ExperienceId: 1
     },
     {
@@ -43,12 +43,12 @@ const roleData = [
     },
     {
         id: 9,
-        role:"Responsible for taking notes during team meetings then typing out those notes for distribution amongthe team.",
+        role:"Responsible for taking notes during team meetings then typing out those notes for distribution among the team.",
         ExperienceId: 2
     },
     {
         id: 10,
-        role:"Referred and or transfers callers to the appropriate area for resolution and closure of issues that arebeyond the training and scope of the Contact Representative's position.",
+        role:"Referred and or transfered callers to the appropriate area for resolution and closure of issues that are beyond the training and scope of the Contact Representative's position.",
         ExperienceId: 2
     },
     {
@@ -58,7 +58,7 @@ const roleData = [
     },
     {
         id: 12,
-        role:"Conducted telephone interviews with a wide range of individuals who have varying degrees ofunderstanding of tax requirements.",
+        role:"Conducted telephone interviews with a wide range of individuals who have varying degrees of understanding of tax requirements.",
         ExperienceId: 2
     }
 ]
